@@ -74,7 +74,7 @@ const salonApp = {
         `);
         console.log(answer);
         if (answer === "այո" ) {
-            console.log (`Ձեզ եմ ներկայացնում մեր ծառայությունները՝`)
+            console.log (`Ձեզ եմ ներկայացնում մեր ծառայությունները՝`);
             for (let key in salonApp.services) {
                 console.log(salonApp.services[key]);
             }
@@ -86,35 +86,35 @@ const salonApp = {
     registration: function (answer) {
         if (answer === "դիմահարդարում") {
             console.log (`Մեր դիմահարդարը ${salonApp.staff.makeupArtist} - ը և իր մոտ դուք կարող եք անել
-            `)
+            `);
             for (let key in salonApp.prices.s3) {
                 console.log (salonApp.prices.s3[key]); 
             }
             console.log("Ո՞ր ծառայության գրանցվեմ:");
         } else if (answer === "կոսմետոլոգիա") {
             console.log (`Մեր կոսմետոլոգը ${salonApp.staff.makeupArtist} - ը և իր մոտ դուք կարող եք անել
-            `)
+            `);
             for (let key in salonApp.prices.s1) {
                 console.log (salonApp.prices.s1[key]); 
             } 
             console.log("Ո՞ր ծառայության գրանցվեմ:");
         } else if (answer === "վարսահարդարում") {
             console.log (`Մեր Վարսահարդարնը ${salonApp.staff.stylist} - ը և իր մոտ դուք կարող եք անել
-            `) 
+            `);
             for (let key in salonApp.prices.s2) {
                 console.log (salonApp.prices.s2[key]); 
             }
             console.log("Ո՞ր ծառայության գրանցվեմ:");
         } else if (answer === "մատնահարդարում") {
             console.log (`Մեր Մատնահարդարնը ${salonApp.staff.nailArtist} - ը և իր մոտ դուք կարող եք անել
-            `)
+            `);
             for (let key in salonApp.prices.s4) {
                 console.log (salonApp.prices.s4[key]); 
             } 
             console.log("Ո՞ր ծառայության գրանցվեմ:");
         } else if (answer === "Լամինացիա") {
             console.log (`Մեր կոսմետոլոգը ${salonApp.staff.makeupArtist} - ը և իր մոտ դուք կարող եք անել
-            `) 
+            `);
             for (let key in salonApp.prices.s5) {
                 console.log (salonApp.prices.s5[key]); 
             }
@@ -156,7 +156,8 @@ const salonApp = {
     finish: function () {
         console.log(`Բարի,դուք գրանցված եք ${service} - ի, ժամը ${time}`);
     }
-}
+};
+
 salonApp.start("այո");
 salonApp.registration("դիմահարդարում");
 salonApp.order("Երեկոյան դիմահարդարում");
