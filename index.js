@@ -4,7 +4,7 @@ let service,
 
 const salonApp = {
     type:"Beauty Salon",
-    salonName: "Annushka",
+    salonName: "AnnushkaBeauty",
     openingHours:"09-00:21-00",
     workingDay: ["Երկուշաբթի","Երեքշաբթի","Չորեքշաբթի","Հինգշաբթի","Ուրբաթ","Շաբաթ"],
     offHours:["09-00","12-00","15-00","17-00","18-30"],
