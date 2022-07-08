@@ -158,8 +158,8 @@ const salonApp = {
     }
 };
 
-salonApp.start("այո");
-salonApp.registration("դիմահարդարում");
+salonApp.start("այո".toLowerCase());
+salonApp.registration("Դիմահարդարում".toLowerCase());
 salonApp.order("Երեկոյան դիմահարդարում");
 salonApp.time("18-30","Երկուշաբթի");
 salonApp.finish();
