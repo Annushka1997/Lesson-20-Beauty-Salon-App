@@ -165,5 +165,3 @@ salonApp.finish();
 
 
 
-// salonApp.lessons();
-
