@@ -158,6 +158,8 @@ const salonApp = {
     }
 };
 
+// ստուգում,user ,ուղարկում է իր պատասխանները 
+
 salonApp.start("այո".toLowerCase());
 salonApp.registration("Դիմահարդարում".toLowerCase());
 salonApp.order("Երեկոյան դիմահարդարում");
